@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "109163701344",
+    "firebase_url": "https://catrat-72281-default-rtdb.firebaseio.com",
+    "project_id": "catrat-72281",
+    "storage_bucket": "catrat-72281.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:109163701344:android:6995e9d40304a853890f05",
+        "android_client_info": {
+          "package_name": "com.example.catproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "109163701344-hvltla42upg1b0rk48thaurb79q82a0u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCnKe12gjxrERSSs46UshbgyBOoiYrrBtk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "109163701344-hvltla42upg1b0rk48thaurb79q82a0u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

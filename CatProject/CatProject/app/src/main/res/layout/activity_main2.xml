@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CDEAF7"
+    tools:context=".MainActivity2">
+
+    <ListView
+        android:id="@+id/listView"
+        android:layout_width="match_parent"
+        android:layout_height="832dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="14dp">
+
+
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonE"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="CREATE ROOM" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="33dp"
+        android:layout_height="497dp"
+        android:layout_alignBottom="@id/buttonE"
+        android:layout_marginLeft="90dp"
+        android:layout_marginBottom="-223dp"
+        android:layout_toRightOf="@id/buttonE"
+        android:src="@drawable/pngwing" />
+
+
+
+</RelativeLayout>

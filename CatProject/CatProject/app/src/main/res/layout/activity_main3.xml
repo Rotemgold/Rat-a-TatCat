@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    android:background="#CDEAF7"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/Card4"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="312dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card3"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+
+        android:layout_marginStart="208dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card2"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card1"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="600dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card8"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card7"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card6"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Card5"
+        android:layout_width="105dp"
+        android:layout_height="130dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/MiddleJackpot"
+        android:layout_width="140dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="284dp"
+        android:src="@drawable/untitled"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/RigthJackpot"
+        android:layout_width="140dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="280dp"
+        android:layout_marginTop="284dp"
+        android:src="@drawable/untitled"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Jackpot"
+        android:layout_width="140dp"
+        android:layout_height="188dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="284dp"
+        android:clickable="true"
+        android:src="@drawable/untitled"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Start"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="210dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/DeclareWin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Declare Win"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="210dp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <Button
+        android:id="@+id/Take"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="492dp"
+        android:gravity="center"
+        android:text="Take"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Drop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="292dp"
+        android:layout_marginTop="492dp"
+        android:gravity="center"
+        android:text="Drop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/textTurn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="TextView"
+
+        android:layout_marginTop="555dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
